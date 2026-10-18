@@ -9,16 +9,21 @@
   header { background:#3c4a3e; color:#fff; padding:24px 16px; text-align:center; }
   header h1 { margin:0; font-size:1.3em; }
   header p { margin:6px 0 0; opacity:.85; font-size:.9em; }
+  nav { display:flex; justify-content:center; gap:8px; padding:14px; background:#fff; position:sticky; top:0; z-index:10; box-shadow:0 1px 4px rgba(0,0,0,.08); flex-wrap:wrap; }
+  nav a { text-decoration:none; color:#3c4a3e; font-size:.85em; padding:6px 12px; border-radius:20px; background:#eee; }
   .wrap { max-width:640px; margin:0 auto; padding:16px; }
+  h2.secao { font-size:1em; color:#3c4a3e; border-bottom:2px solid #3c4a3e; padding-bottom:6px; margin:36px 0 16px; }
   .card { background:#fff; border-radius:12px; box-shadow:0 1px 4px rgba(0,0,0,.08); margin-bottom:24px; overflow:hidden; }
   .card img { width:100%; display:block; background:#eee; }
   .sem-imagem { padding:40px 16px; text-align:center; background:#eee; color:#888; font-size:.85em; }
   .card-body { padding:16px; }
-  .card-body h2 { margin:0 0 4px; font-size:1.1em; }
+  .card-body h3 { margin:0 0 4px; font-size:1.05em; }
   .meta { font-size:.82em; color:#777; margin-bottom:10px; }
   .legenda { white-space:pre-line; font-size:.95em; line-height:1.5; margin-bottom:12px; }
   .cta { font-size:.85em; color:#555; font-style:italic; margin-bottom:14px; }
   .status { display:inline-block; font-size:.75em; padding:3px 10px; border-radius:20px; background:#fff3cd; color:#856404; margin-bottom:10px; }
+  .status.ok { background:#d4edda; color:#155724; }
+  .status.gravacao { background:#d1ecf1; color:#0c5460; }
   .botoes { display:flex; gap:10px; margin-top:12px; }
   .btn { flex:1; text-align:center; padding:12px; border-radius:8px; text-decoration:none; font-weight:600; font-size:.95em; }
   .btn-ok { background:#2e7d32; color:#fff; }
@@ -29,95 +34,48 @@
 <body>
 
 <header>
-  <h1>Conteúdo para aprovação</h1>
-  <p>Consultório Dra. Débora Cury · Outubro 2026 · nada publicado ainda</p>
+  <h1>Cronograma de 30 dias — aprovação</h1>
+  <p>Consultório Dra. Débora Cury · 20/10 a 18/11/2026 · nada publicado ainda</p>
 </header>
 
+<nav>
+  <a href="#carrosseis">Carrosséis (8)</a>
+  <a href="#reels">Reels (12)</a>
+  <a href="#blog">Blog (4)</a>
+</nav>
+
 <div class="wrap">
+
+<h2 class="secao" id="carrosseis">INSTAGRAM — CARROSSÉIS (8)</h2>
 
   <div class="card">
     <img src="post-02-ansiedade-gptimage2.png" alt="Post ansiedade">
     <div class="card-body">
-      <span class="status">Aguardando aprovação</span>
-      <h2>05/10 · Ansiedade normal ou transtorno?</h2>
-      <div class="meta">Formato: Carrossel (6 slides)</div>
+      <span class="status ok">✓ Já aprovado anteriormente</span>
+      <h3>C01 · 20/10 · Ansiedade normal ou transtorno?</h3>
       <div class="legenda">Sentir ansiedade em alguns momentos faz parte da vida. O sinal de atenção aparece quando ela passa a ocupar espaço demais e interfere na rotina.
 
-Este post não serve para fazer um diagnóstico. Ele é um convite para observar a frequência, a intensidade e o impacto do que você sente.
-
-Se a ansiedade tem limitado seus dias, uma avaliação profissional pode ajudar a organizar esse cuidado.</div>
+Este post não serve para fazer um diagnóstico. Ele é um convite para observar a frequência, a intensidade e o impacto do que você sente.</div>
       <div class="cta">CTA: Salve este post para consultar depois.</div>
       <div class="botoes">
-        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20Post%2002%20-%20Ansiedade%20normal%20ou%20transtorno%3F%20(05%2F10)">✓ Aprovar</a>
-        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20Post%2002%20-%20Ansiedade%20normal%20ou%20transtorno%3F%20(05%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+        <a class="btn btn-ok" href="https://wa.me/?text=Confirmado%3A%20C01%20-%20Ansiedade%20(20%2F10)">✓ Confirmar publicação</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20C01%20-%20Ansiedade%20(20%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
       </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="post-03-burnout.png" alt="Post burnout">
+    <img src="post-06-tdah-gptimage2.png" alt="Post TDAH hiperatividade">
     <div class="card-body">
-      <span class="status">Aguardando aprovação</span>
-      <h2>08/10 · Burnout ou estresse?</h2>
-      <div class="meta">Formato: Reel (25-40s) · roteiro abaixo precisa ser gravado pela Dra.</div>
-      <div class="legenda">Roteiro: "Estresse e burnout não são a mesma coisa. O estresse pode aparecer diante de uma situação difícil e variar conforme o momento. No burnout, o esgotamento se relaciona ao trabalho e pode vir acompanhado de desmotivação, dificuldade de concentração e sensação de sobrecarga. Se o cansaço persiste e começa a mudar sua rotina, vale buscar uma avaliação. Não é preciso esperar chegar ao limite para olhar para isso. Este vídeo é informativo e não substitui uma consulta."</div>
-      <div class="cta">CTA: Compartilhe com alguém que precisa entender melhor esse tema.</div>
-      <div class="botoes">
-        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20Post%2003%20-%20Burnout%20ou%20estresse%3F%20(08%2F10)">✓ Aprovar</a>
-        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20Post%2003%20-%20Burnout%20ou%20estresse%3F%20(08%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="post-04-insonia-gptimage2.png" alt="Post insônia">
-    <div class="card-body">
-      <span class="status">Aguardando aprovação</span>
-      <h2>10/10 · Cansado, mas não consegue dormir?</h2>
-      <div class="meta">Formato: Carrossel (6 slides)</div>
-      <div class="legenda">Estar cansado nem sempre significa conseguir dormir. A dificuldade pode aparecer para pegar no sono, permanecer dormindo ou acordar descansado.
-
-Observar a frequência do problema e o impacto durante o dia ajuda a entender quando é hora de procurar cuidado.</div>
-      <div class="cta">CTA: Salve este conteúdo e observe como tem sido o seu sono nesta semana.</div>
-      <div class="botoes">
-        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20Post%2004%20-%20Ins%C3%B4nia%20(10%2F10)">✓ Aprovar</a>
-        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20Post%2004%20-%20Ins%C3%B4nia%20(10%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="post-05-atendimento-gptimage2.png" alt="Post atendimento">
-    <div class="card-body">
-      <span class="status">Aguardando aprovação</span>
-      <h2>17/10 · Atendimento presencial e online</h2>
-      <div class="meta">Formato: Imagem única · pendente: confirmar se atendimento online continua válido e aprovar foto</div>
-      <div class="legenda">O cuidado em saúde mental pode acontecer de forma presencial ou online.
-
-O consultório da Dra. Débora Cury atende em Campo Grande-MS e também oferece consultas online para todo o Brasil, sempre com escuta, acolhimento e acompanhamento individualizado.
-
-Dra. Débora Cury · Médica · CRM-MS 9707</div>
-      <div class="cta">CTA: Entre em contato para consultar horários e tirar suas dúvidas.</div>
-      <div class="botoes">
-        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20Post%2005%20-%20Atendimento%20presencial%20e%20online%20(17%2F10)">✓ Aprovar</a>
-        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20Post%2005%20-%20Atendimento%20presencial%20e%20online%20(17%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="post-06-tdah-gptimage2.png" alt="Post TDAH">
-    <div class="card-body">
-      <span class="status">Aguardando aprovação</span>
-      <h2>24/10 · TDAH no adulto nem sempre é hiperatividade</h2>
-      <div class="meta">Formato: Carrossel (6 slides) · tema novo (lacuna identificada no benchmarking de concorrentes)</div>
+      <span class="status ok">✓ Já aprovado anteriormente</span>
+      <h3>C02 · 24/10 · TDAH no adulto nem sempre é hiperatividade</h3>
       <div class="legenda">TDAH no adulto nem sempre aparece como inquietação visível. Muitas vezes se manifesta como dificuldade de concluir tarefas, procrastinação, esquecimentos frequentes e sensação de estar sempre atrasado.
 
 Nem toda distração é TDAH, e por isso uma avaliação profissional é o caminho para entender o que está acontecendo.</div>
       <div class="cta">CTA: Salve este post se você se reconheceu em algum ponto.</div>
       <div class="botoes">
-        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20Post%2006%20-%20TDAH%20no%20adulto%20(24%2F10)">✓ Aprovar</a>
-        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20Post%2006%20-%20TDAH%20no%20adulto%20(24%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+        <a class="btn btn-ok" href="https://wa.me/?text=Confirmado%3A%20C02%20-%20TDAH%20(24%2F10)">✓ Confirmar publicação</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20C02%20-%20TDAH%20(24%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
       </div>
     </div>
   </div>
@@ -125,16 +83,324 @@ Nem toda distração é TDAH, e por isso uma avaliação profissional é o camin
   <div class="card">
     <img src="post-07-bipolar-gptimage2.png" alt="Post bipolar">
     <div class="card-body">
-      <span class="status">Aguardando aprovação</span>
-      <h2>28/10 · Instabilidade de humor ou transtorno bipolar?</h2>
-      <div class="meta">Formato: Carrossel (6 slides) · tema novo (lacuna identificada no benchmarking de concorrentes)</div>
+      <span class="status ok">✓ Já aprovado anteriormente</span>
+      <h3>C03 · 28/10 · Instabilidade de humor ou transtorno bipolar?</h3>
       <div class="legenda">Ter altos e baixos de humor faz parte da vida. O que diferencia o transtorno bipolar é a intensidade, a duração e o impacto dessas variações na rotina, no sono e nas relações.
 
 Este post é informativo. Uma avaliação profissional é o único caminho para um diagnóstico.</div>
       <div class="cta">CTA: Compartilhe com alguém que pode se beneficiar dessa informação.</div>
       <div class="botoes">
-        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20Post%2007%20-%20Bipolar%20x%20instabilidade%20(28%2F10)">✓ Aprovar</a>
-        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20Post%2007%20-%20Bipolar%20x%20instabilidade%20(28%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+        <a class="btn btn-ok" href="https://wa.me/?text=Confirmado%3A%20C03%20-%20Bipolar%20(28%2F10)">✓ Confirmar publicação</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20C03%20-%20Bipolar%20(28%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="post-04-insonia-gptimage2.png" alt="Post insônia">
+    <div class="card-body">
+      <span class="status ok">✓ Já aprovado anteriormente</span>
+      <h3>C04 · 31/10 · Cansado, mas não consegue dormir?</h3>
+      <div class="legenda">Estar cansado nem sempre significa conseguir dormir. A dificuldade pode aparecer para pegar no sono, permanecer dormindo ou acordar descansado.
+
+Observar a frequência do problema e o impacto durante o dia ajuda a entender quando é hora de procurar cuidado.</div>
+      <div class="cta">CTA: Salve este conteúdo e observe como tem sido o seu sono nesta semana.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Confirmado%3A%20C04%20-%20Ins%C3%B4nia%20(31%2F10)">✓ Confirmar publicação</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20C04%20-%20Ins%C3%B4nia%20(31%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="post-08-anedonia-gptimage2.png" alt="Post anedonia">
+    <div class="card-body">
+      <span class="status">Aguardando aprovação</span>
+      <h3>C05 · 04/11 · Depressão nem sempre é tristeza (anedonia)</h3>
+      <div class="meta">Tema novo — lacuna identificada no benchmarking de concorrentes</div>
+      <div class="legenda">A depressão nem sempre aparece como choro ou tristeza visível. Em muitos casos, o sinal é a perda de interesse em coisas que antes davam prazer, mudanças no sono ou dificuldade de sentir motivação.
+
+Reconhecer esses sinais menos óbvios é o primeiro passo para buscar avaliação.</div>
+      <div class="cta">CTA: Marque alguém que pode precisar ler isso.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20C05%20-%20Anedonia%20(04%2F11)">✓ Aprovar</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20C05%20-%20Anedonia%20(04%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="post-09-tdah-desatencao-gptimage2.png" alt="Post diferença TDAH">
+    <div class="card-body">
+      <span class="status">Aguardando aprovação</span>
+      <h3>C06 · 08/11 · Falta de atenção comum ou TDAH?</h3>
+      <div class="meta">Tema novo — lacuna identificada no benchmarking de concorrentes</div>
+      <div class="legenda">Nem toda falta de atenção é TDAH. Dormir mal, alimentação desequilibrada ou sobrecarga de tarefas também afetam a concentração.
+
+Entender a diferença é importante para saber quando vale a pena buscar uma avaliação profissional.</div>
+      <div class="cta">CTA: Salve este post para rever quando precisar.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20C06%20-%20TDAH%20x%20desatencao%20(08%2F11)">✓ Aprovar</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20C06%20-%20TDAH%20x%20desatencao%20(08%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="post-05-atendimento-gptimage2.png" alt="Post atendimento">
+    <div class="card-body">
+      <span class="status ok">✓ Já aprovado anteriormente</span>
+      <h3>C07 · 12/11 · Atendimento presencial e online</h3>
+      <div class="legenda">O cuidado em saúde mental pode acontecer de forma presencial ou online.
+
+O consultório da Dra. Débora Cury atende em Campo Grande-MS e também oferece consultas online para todo o Brasil, sempre com escuta, acolhimento e acompanhamento individualizado.
+
+Dra. Débora Cury · Médica · CRM-MS 9707</div>
+      <div class="cta">CTA: Entre em contato para consultar horários e tirar suas dúvidas.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Confirmado%3A%20C07%20-%20Atendimento%20(12%2F11)">✓ Confirmar publicação</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20C07%20-%20Atendimento%20(12%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="post-10-bastidor-gptimage2.png" alt="Post bastidor">
+    <div class="card-body">
+      <span class="status">Aguardando aprovação</span>
+      <h3>C08 · 15/11 · Nem todo paciente chega pronto para falar</h3>
+      <div class="meta">Bastidor profissional, sem citar nenhum caso real</div>
+      <div class="legenda">Nem todo paciente chega pronto para falar na primeira consulta. E tentar forçar uma conversa pode ser justamente o que impede a confiança de começar.
+
+O tempo de cada pessoa é respeitado, sem pressa e sem julgamento.</div>
+      <div class="cta">CTA: Se você já sentiu isso, saiba que é normal.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20C08%20-%20Bastidor%20(15%2F11)">✓ Aprovar</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20C08%20-%20Bastidor%20(15%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+<h2 class="secao" id="reels">INSTAGRAM — REELS (12, roteiro pronto, gravação pendente)</h2>
+
+  <div class="card">
+    <img src="post-03-burnout.png" alt="Post burnout">
+    <div class="card-body">
+      <span class="status ok">✓ Já aprovado anteriormente</span>
+      <h3>R01 · 21/10 · Burnout ou estresse?</h3>
+      <div class="legenda">Roteiro: "Estresse e burnout não são a mesma coisa. O estresse pode aparecer diante de uma situação difícil e variar conforme o momento. No burnout, o esgotamento se relaciona ao trabalho e pode vir acompanhado de desmotivação, dificuldade de concentração e sensação de sobrecarga. Se o cansaço persiste e começa a mudar sua rotina, vale buscar uma avaliação."</div>
+      <div class="cta">CTA: Compartilhe com alguém que precisa entender melhor esse tema.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Confirmado%3A%20R01%20-%20Burnout%20(21%2F10)">✓ Confirmar publicação</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R01%20-%20Burnout%20(21%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R02 · 23/10 · Diferença entre tristeza e depressão</h3>
+      <div class="legenda">Roteiro: "Sentir tristeza é uma resposta normal da vida diante de perdas e frustrações. A depressão é diferente: ela persiste, não depende de um motivo claro, e muda o sono, o apetite e a energia por semanas. Perceber essa diferença é o primeiro passo para procurar ajuda."</div>
+      <div class="cta">CTA: Salve este vídeo para rever quando precisar.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R02%20-%20Tristeza%20x%20depressao%20(23%2F10)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R02%20-%20Tristeza%20x%20depressao%20(23%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R03 · 27/10 · Sinais de alerta para buscar ajuda</h3>
+      <div class="legenda">Roteiro: "Alguns sinais merecem atenção: mudanças persistentes no sono, isolamento social, perda de interesse em atividades que antes davam prazer, ou dificuldade de concentração que atrapalha o dia a dia. Nenhum sinal sozinho define um diagnóstico, mas juntos eles são um convite a buscar avaliação profissional."</div>
+      <div class="cta">CTA: Compartilhe com alguém que você se preocupa.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R03%20-%20Sinais%20de%20alerta%20(27%2F10)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R03%20-%20Sinais%20de%20alerta%20(27%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R04 · 30/10 · Mito: "depressão grave é frescura ou falta de força"</h3>
+      <div class="legenda">Roteiro: "Depressão profunda não é frescura, falta de força de vontade, ou algo que passa 'se a pessoa se distrair'. Quando chega a um estágio mais grave, o cérebro precisa de cuidado — assim como qualquer outro órgão do corpo precisa de tratamento quando adoece."</div>
+      <div class="cta">CTA: Marque alguém que precisa ouvir isso.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R04%20-%20Mito%20depressao%20(30%2F10)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R04%20-%20Mito%20depressao%20(30%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R05 · 02/11 · Escuta ativa: o que a Dra. faz numa consulta</h3>
+      <div class="legenda">Roteiro: "Escutar não é esperar a vez de falar. Na consulta, o objetivo é entender a história de cada pessoa sem pressa, sem julgamento e sem comparar uma dor com a outra. Essa escuta é o ponto de partida para qualquer cuidado."</div>
+      <div class="cta">CTA: Entre em contato para agendar uma consulta.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R05%20-%20Escuta%20ativa%20(02%2F11)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R05%20-%20Escuta%20ativa%20(02%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R06 · 05/11 · TDAH e a necessidade de movimento para organizar a mente</h3>
+      <div class="legenda">Roteiro: "Para algumas pessoas com TDAH, o corpo precisa se mexer para a mente conseguir se organizar. Balançar a perna, andar enquanto pensa, ou mexer em algo com as mãos não é falta de educação — é uma forma de regular a atenção."</div>
+      <div class="cta">CTA: Salve este vídeo se você se reconheceu.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R06%20-%20TDAH%20movimento%20(05%2F11)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R06%20-%20TDAH%20movimento%20(05%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R07 · 07/11 · Mitos sobre terapia + medicação juntas</h3>
+      <div class="legenda">Roteiro: "Terapia e medicação não competem entre si. Em muitos casos, elas se complementam: uma trabalha a compreensão e as estratégias, a outra ajuda a regular o funcionamento do corpo e do cérebro. A decisão de usar uma, outra, ou as duas é sempre individual e definida com acompanhamento profissional."</div>
+      <div class="cta">CTA: Compartilhe se você já ouviu esse mito antes.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R07%20-%20Terapia%20e%20medicacao%20(07%2F11)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R07%20-%20Terapia%20e%20medicacao%20(07%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R08 · 09/11 · Como funciona a primeira consulta (institucional)</h3>
+      <div class="legenda">Roteiro: "Na primeira consulta, o objetivo é conhecer a história de cada pessoa: como está o sono, o humor, a rotina e o que motivou a busca por ajuda. Não há pressa, nem julgamento. É o início de um acompanhamento construído com confiança."</div>
+      <div class="cta">CTA: Entre em contato para tirar dúvidas sobre horários.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R08%20-%20Primeira%20consulta%20(09%2F11)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R08%20-%20Primeira%20consulta%20(09%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R09 · 11/11 · Autocuidado negligenciado por sobrecarga</h3>
+      <div class="legenda">Roteiro: "É comum cuidar de tudo e de todos e deixar a própria saúde para depois. Mas negligenciar sinais do próprio corpo e mente por muito tempo cobra um preço. Cuidar de si não é luxo, é parte da responsabilidade com quem você ama."</div>
+      <div class="cta">CTA: Marque alguém que precisa se lembrar disso.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R09%20-%20Autocuidado%20(11%2F11)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R09%20-%20Autocuidado%20(11%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R10 · 13/11 · Importância do sono na saúde mental</h3>
+      <div class="legenda">Roteiro: "O sono não é só descanso físico — ele regula humor, memória e capacidade de lidar com o estresse do dia a dia. Dormir mal com frequência pode ser tanto causa quanto sintoma de questões emocionais que merecem atenção."</div>
+      <div class="cta">CTA: Salve este vídeo e observe seu próprio sono esta semana.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R10%20-%20Sono%20(13%2F11)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R10%20-%20Sono%20(13%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R11 · 16/11 · TOC: pensamentos intrusivos e medo dos próprios pensamentos</h3>
+      <div class="legenda">Roteiro: "Para quem convive com o Transtorno Obsessivo-Compulsivo, o sofrimento é muitas vezes silencioso: pensamentos indesejados que geram medo e angústia, seguidos de rituais para tentar neutralizá-los. Não é frescura nem mania — é uma condição tratável."</div>
+      <div class="cta">CTA: Compartilhe para ajudar a desfazer esse estigma.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R11%20-%20TOC%20(16%2F11)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R11%20-%20TOC%20(16%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sem-imagem">Vídeo não gravado ainda — depende da Dra. Débora</div>
+    <div class="card-body">
+      <span class="status gravacao">Roteiro pronto · aguarda gravação</span>
+      <h3>R12 · 18/11 · Luto: por que o alívio emocional vem depois do choro</h3>
+      <div class="legenda">Roteiro: "Chorar intensamente e, em seguida, sentir uma calma inexplicável é uma resposta natural do corpo ao luto. Não existe prazo certo para elaborar uma perda, e permitir-se sentir é parte necessária do processo."</div>
+      <div class="cta">CTA: Marque alguém que está passando por um momento de luto.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%20roteiro%3A%20R12%20-%20Luto%20(18%2F11)">✓ Aprovar roteiro</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20R12%20-%20Luto%20(18%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+<h2 class="secao" id="blog">BLOG — 4 ARTIGOS (1 por semana)</h2>
+
+  <div class="card">
+    <div class="card-body">
+      <span class="status">Aguardando aprovação</span>
+      <h3>B01 · 22/10 · Ansiedade normal ou transtorno? Como saber a diferença</h3>
+      <div class="meta">Hub relacionado: ansiedade</div>
+      <div class="legenda">Artigo aprofundado sobre os critérios que diferenciam ansiedade cotidiana de transtorno de ansiedade, com foco em frequência, intensidade e impacto na rotina. Fecha com convite para avaliação profissional.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20B01%20-%20Ansiedade%20blog%20(22%2F10)">✓ Aprovar pauta</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20B01%20-%20Ansiedade%20blog%20(22%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <span class="status">Aguardando aprovação</span>
+      <h3>B02 · 30/10 · Burnout x estresse: entenda antes que vire crise</h3>
+      <div class="meta">Hub relacionado: burnout</div>
+      <div class="legenda">Artigo explicando a diferença clínica entre estresse pontual e síndrome de burnout, sinais de alerta no ambiente de trabalho, e quando procurar ajuda.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20B02%20-%20Burnout%20blog%20(30%2F10)">✓ Aprovar pauta</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20B02%20-%20Burnout%20blog%20(30%2F10)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <span class="status">Aguardando aprovação</span>
+      <h3>B03 · 06/11 · TDAH no adulto: sinais que passam despercebidos</h3>
+      <div class="meta">Satélite novo — gap identificado no benchmarking de concorrentes</div>
+      <div class="legenda">Artigo sobre como o TDAH se manifesta de forma diferente em adultos (procrastinação, dificuldade de organização, esquecimentos) comparado à imagem popular de hiperatividade infantil.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20B03%20-%20TDAH%20blog%20(06%2F11)">✓ Aprovar pauta</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20B03%20-%20TDAH%20blog%20(06%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <span class="status">Aguardando aprovação</span>
+      <h3>B04 · 14/11 · Insônia: quando a dificuldade para dormir pede avaliação</h3>
+      <div class="meta">Hub relacionado: insônia</div>
+      <div class="legenda">Artigo sobre os diferentes tipos de insônia, impacto na saúde mental, e critérios para saber quando vale buscar acompanhamento profissional.</div>
+      <div class="botoes">
+        <a class="btn btn-ok" href="https://wa.me/?text=Aprovado%3A%20B04%20-%20Insonia%20blog%20(14%2F11)">✓ Aprovar pauta</a>
+        <a class="btn btn-ajuste" href="https://wa.me/?text=Pedir%20ajuste%3A%20B04%20-%20Insonia%20blog%20(14%2F11)%20-%20motivo%3A%20">✎ Pedir ajuste</a>
       </div>
     </div>
   </div>
@@ -142,7 +408,7 @@ Este post é informativo. Uma avaliação profissional é o único caminho para 
 </div>
 
 <footer>
-  Protótipo de aprovação · nenhum conteúdo foi publicado nas redes · HMK Marketing
+  Cronograma completo: 8 carrosséis + 12 Reels + 4 artigos de blog · nenhum conteúdo foi publicado nas redes · HMK Marketing
 </footer>
 
 </body>
