@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Dra. Débora Cury (rascunhos novos)</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--primary-blue:#3A749C;--secondary-blue:#2C5A7A;--coral:#F89A81;--beige:#F5EFE6;--light-gray:#E8E4DC;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:"Poppins",-apple-system,sans-serif;color:#2C5A7A;background:#fff;}
+  .nav-link{font-size:15px;font-weight:500;color:#000;text-decoration:none;}
+  .nav-link.active{color:var(--primary-blue);font-weight:600;}
+  .badge-aprovacao{background:var(--coral);color:#3a1f16;padding:8px 18px;border-radius:999px;font-size:13px;font-weight:600;}
+  main{padding-top:100px;}
+  .container-wide{max-width:1100px;margin:0 auto;padding:0 20px;}
+  h1.blog-h1{font-size:40px;color:var(--primary-blue);margin:0 0 10px;text-align:center;}
+  .blog-sub{text-align:center;color:#6b7f8c;font-size:16px;max-width:560px;margin:0 auto 48px;}
+  .grid-blog{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
+  @media(max-width:900px){.grid-blog{grid-template-columns:1fr;}}
+  article.card-blog{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06);border:1px solid var(--light-gray);display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:box-shadow .2s;}
+  article.card-blog:hover{box-shadow:0 4px 14px rgba(0,0,0,.1);}
+  .card-blog .cover{aspect-ratio:16/9;background:var(--beige);overflow:hidden;}
+  .card-blog .cover img{width:100%;height:100%;object-fit:cover;}
+  .card-blog .body{padding:22px;display:flex;flex-direction:column;flex:1;}
+  .card-blog .kicker{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--coral);margin-bottom:10px;}
+  .card-blog h2{font-size:19px;color:var(--primary-blue);margin:0 0 10px;line-height:1.35;}
+  .card-blog p.desc{font-size:14px;color:#5a7281;line-height:1.55;margin:0 0 16px;flex:1;}
+  .card-blog .meta{display:flex;gap:14px;font-size:12px;color:#8396a1;padding-top:14px;border-top:1px solid var(--light-gray);}
+  .status-new{display:inline-block;background:#ffe8b3;color:#8a5a00;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px;margin-bottom:10px;}
+  .site-footer{background:var(--primary-blue);color:#fff;padding:24px 0;margin-top:60px;text-align:center;font-size:12px;}
+  .footer-bottom p{color:rgba(255,255,255,.7);margin:0;}
+</style>
+</head>
+<body>
+<header id="header" class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-sm py-5 shadow-sm">
+  <div class="container mx-auto px-4 md:px-8 flex justify-between items-center">
+    <div class="flex-shrink-0"><a class="block" href="../index.html"><img src="assets/logo.png" alt="Dra. Débora Cury" class="w-40"></a></div>
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="../index.html#reels" class="nav-link">Reels</a>
+      <a href="../index.html#carrosseis" class="nav-link">Carrosséis</a>
+      <a href="../index.html#blog" class="nav-link active">Blog</a>
+    </nav>
+    <div class="hidden md:block"><span class="badge-aprovacao">Área de aprovação — Sergio/HMK</span></div>
+  </div>
+</header>
+<main>
+  <div class="container-wide">
+    <h1 class="blog-h1">Blog</h1>
+    <p class="blog-sub">4 artigos novos em produção — temas que ainda não existem no blog oficial (deboracury.com.br/blog)</p>
+    <div class="grid-blog">
+      <a class="card-blog" href="b01.html">
+      <div class="cover"><img src="assets/b01-tdah.png" alt="TDAH no adulto: sinais que passam despercebidos" loading="lazy"></div>
+      <div class="body">
+        <span class="status-new">Rascunho — aguardando aprovação</span>
+        <span class="kicker">TDAH</span>
+        <h2>TDAH no adulto: sinais que passam despercebidos</h2>
+        <p class="desc">Esquecimentos constantes, dificuldade de terminar tarefas, sensação de estar sempre atrasado. Entenda quais sinais passam despercebidos.</p>
+        <div class="meta">
+          <span>Dra. Débora Cury</span>
+          <span style="margin-left:auto;">📅 22/10</span>
+          <span>⏱ 7 min</span>
+        </div>
+      </div>
+    </a><a class="card-blog" href="b02.html">
+      <div class="cover"><img src="assets/b02-bipolar.png" alt="Instabilidade de humor ou transtorno bipolar? Como diferenciar" loading="lazy"></div>
+      <div class="body">
+        <span class="status-new">Rascunho — aguardando aprovação</span>
+        <span class="kicker">Transtorno Bipolar</span>
+        <h2>Instabilidade de humor ou transtorno bipolar? Como diferenciar</h2>
+        <p class="desc">Oscilações de humor fazem parte da vida. Entenda a diferença entre altos e baixos normais e os episódios que caracterizam o transtorno bipolar.</p>
+        <div class="meta">
+          <span>Dra. Débora Cury</span>
+          <span style="margin-left:auto;">📅 30/10</span>
+          <span>⏱ 7 min</span>
+        </div>
+      </div>
+    </a><a class="card-blog" href="b03.html">
+      <div class="cover"><img src="assets/b03-toc.png" alt="TOC: pensamentos intrusivos e o medo dos próprios pensamentos" loading="lazy"></div>
+      <div class="body">
+        <span class="status-new">Rascunho — aguardando aprovação</span>
+        <span class="kicker">TOC</span>
+        <h2>TOC: pensamentos intrusivos e o medo dos próprios pensamentos</h2>
+        <p class="desc">Pensamentos indesejados passam pela cabeça de qualquer pessoa. Entenda a diferença entre isso e o Transtorno Obsessivo-Compulsivo.</p>
+        <div class="meta">
+          <span>Dra. Débora Cury</span>
+          <span style="margin-left:auto;">📅 06/11</span>
+          <span>⏱ 6 min</span>
+        </div>
+      </div>
+    </a><a class="card-blog" href="b04.html">
+      <div class="cover"><img src="assets/b04-luto.png" alt="Luto: por que o alívio emocional vem depois do choro" loading="lazy"></div>
+      <div class="body">
+        <span class="status-new">Rascunho — aguardando aprovação</span>
+        <span class="kicker">Luto</span>
+        <h2>Luto: por que o alívio emocional vem depois do choro</h2>
+        <p class="desc">Chorar durante o luto não é fraqueza. Entenda por que o choro faz parte do processo de elaboração da perda, e quando buscar acompanhamento.</p>
+        <div class="meta">
+          <span>Dra. Débora Cury</span>
+          <span style="margin-left:auto;">📅 14/11</span>
+          <span>⏱ 6 min</span>
+        </div>
+      </div>
+    </a>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container mx-auto px-4 md:px-8">
+    <div class="footer-bottom" style="margin-top:0;border-top:none;padding-top:0;">
+      <p>© 2026 Dra. Débora Cury · Página de aprovação interna HMK</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
